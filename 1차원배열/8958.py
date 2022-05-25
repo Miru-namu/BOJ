@@ -13,12 +13,6 @@ for _ in range(cnt):
         elif ox[i] == 'X':
             score = 1
     print(score_sum)
-
-
-        
-
-
-            
 #             if ox[i] == 'O'
 # OOXXOXXOOO 1
 # OXXOXXOOO

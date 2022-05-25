@@ -35,7 +35,9 @@ print(num_list.count(7))
 print(num_list.count(8))
 print(num_list.count(9))
 
-
+#숏코딩
+# a=input;A=int(a());B=int(a());C=int(a())
+# for i in range(10): print(str(A*B*C).count(str(i)))
 
 # len0 = 0
 # len1 = 0

@@ -1,4 +1,20 @@
 # 11653
+n = int(input())
+m = n
+if n == 1:
+    exit(0)
+
+else:
+    while True:
+        for i in range(2,int(m)+1):
+            if n%i == 0:
+                print(i)
+                n = int(n)/int(i)
+                break
+            elif n == 1:
+                exit(0)
+        
+        
 
 
 

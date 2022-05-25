@@ -1,6 +1,9 @@
 word = 'happy'
 print(word[6])
+happy
+01234
 
+0~3
 
 # cnt = int(input())
 # lst = []

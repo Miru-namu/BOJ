@@ -11,5 +11,13 @@
 
 a , b = map(int, input().split())
 lst = list(map(int, input().split()))
-for i in range(len(lst)):
-    lst[i]
+result = []
+for i in range(len(lst)-2):
+    for j in range(i+1,len(lst)-1):
+        for k in range(j+1,len(lst)):
+            c = lst[i]+lst[j]+lst[k]
+            if c <= b:
+                result.append(c)
+            else:
+                pass
+print(max(result))

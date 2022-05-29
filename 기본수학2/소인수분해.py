@@ -1,22 +1,16 @@
 # 11653
+
 n = int(input())
-m = n
 if n == 1:
     exit(0)
-
-else:
-    while True:
-        for i in range(2,int(m)+1):
-            if n%i == 0:
-                print(i)
-                n = int(n)/int(i)
-                break
-            elif n == 1:
-                exit(0)
-        
-        
-
-
+while n > 1:
+    for i in range(2,n+1):
+        if n%i == 0:
+            print(i)
+            n = n//i
+            break
+        else:
+            pass
 
 # 예제 입력 1 
 # 72

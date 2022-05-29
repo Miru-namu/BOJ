@@ -1,4 +1,3 @@
-a = '1S#2D*3T*'
-a.split('*')
-a.split('#')
-print(a)
+n = int(input())
+print((n**2)*3.14159265359)
+print((n**2)*2)
